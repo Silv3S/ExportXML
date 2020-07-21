@@ -1,0 +1,24 @@
+﻿<?Fexml version="1.0" encoding="utf-8"?>
+<ProductionReport Manufacturer="Audi" Date="2017-14-13T12:32:02.8036669+01:00">
+  <Factories>
+    <Factory Name="Neckersulm Fab">
+      <ProducedCars>
+        <Car VIN="321ZAYC024">
+          <ProductionYear>2017</ProductionYear>
+          <Model>TT</Model>
+          <Features>
+            <Feature Code="SZW">Sportowe zawieszenie</Feature>
+            <Feature Code="SZD">Szyberdach</Feature>
+          </Features>
+        </Car>
+        <Car VIN="YC024321ZA">
+          <ProductionYear>2018</ProductionYear>
+          <Model>A4</Model>
+          <Features>
+            <Feature Code="ASB">Automatyczna skrzynia biegow</Feature>
+          </Features>
+        </Car>
+      </ProducedCars>
+    </Factory>
+  </Factories>
+</ProductionReport>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <ProjectGuid>{C36484F4-0823-4F78-9A0F-BA9B838A7CFF}</ProjectGuid>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Cars.xslt" />
+    <None Remove="ReportsXML\SampleProductionResults.xml" />
+    <None Remove="ReportsXML\SkodaProductionResults.xml" />
+    <None Remove="Results\Cars.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Cars.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportsXML\SkodaProductionResults.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportsXML\OpelProductionResults.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Results\" />
+  </ItemGroup>
+
+</Project>

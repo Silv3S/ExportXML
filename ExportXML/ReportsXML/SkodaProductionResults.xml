@@ -1,0 +1,60 @@
+﻿<?Fexml version="1.0" encoding="utf-8"?>
+<ProductionReport Manufacturer="Skoda" Date="2020-07-16T11:32:02.8036669+01:00">
+  <Factories>
+    <Factory Name="Kvasine Fab">
+      <ProducedCars>
+        <Car VIN="FVYN0NXJDY">
+          <ProductionYear>2019</ProductionYear>
+          <Model>Fabia</Model>
+          <Features>
+            <Feature Code="RXE">Klimatyzacja</Feature>
+            <Feature Code="SZW">Skórzane siedzenia</Feature>
+          </Features>
+        </Car>
+        <Car VIN="SNHT3PK2SP">
+          <ProductionYear>2018</ProductionYear>
+          <Model>Scala</Model>
+          <Features>
+            <Feature Code="RXE">Reflektory xenonowe</Feature>
+          </Features>
+        </Car>
+        <Car VIN="4IM6UMKZJ0">
+          <ProductionYear>2017</ProductionYear>
+          <Model>Octavia</Model>
+          <Features>
+            <Feature Code="RXE">Reflektory xenonowe</Feature>
+            <Feature Code="SZW">Sportowe zawieszenie</Feature>
+            <Feature Code="ASB">Automatyczna skrzynia biegow</Feature>
+          </Features>
+        </Car>
+        <Car VIN="P3TTYHE9A0">
+          <ProductionYear>2020</ProductionYear>
+          <Model>Rapid</Model>
+          <Features>
+            <Feature Code="RXE">Reflektory xenonowe</Feature>
+          </Features>
+        </Car>
+        <Car VIN="VLQP0OLD9H">
+          <ProductionYear>2019</ProductionYear>
+          <Model>Yeti</Model>
+          <Features>
+            <Feature Code="RXE">Reflektory xenonowe</Feature>
+            <Feature Code="ASB">Automatyczna skrzynia biegow</Feature>
+            <Feature Code="SZD">Szyberdach</Feature>
+          </Features>
+        </Car>
+        <Car VIN="81K8PDPAI2">
+          <ProductionYear>2018</ProductionYear>
+          <Model>Superb</Model>
+          <Features>
+            <Feature Code="RXE">Reflektory xenonowe</Feature>
+            <Feature Code="ASB">Automatyczna skrzynia biegow</Feature>
+          </Features>
+        </Car>
+        <Car VIN="1828PYPZI2">
+          <Model>Superb</Model>
+        </Car>
+      </ProducedCars>
+    </Factory>
+  </Factories>
+</ProductionReport>

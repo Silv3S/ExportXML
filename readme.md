@@ -1,19 +1,18 @@
-
 # Export of report to XML
 This .NET Core 3.1 console application provides:
-- deserialization of ProductionResults.xml,
-- serialization of car objects to XML file.
+- deserialization of *ProductionResults.xml*,
+- serialization of car objects to XML file,
 - converting XML file to CSV via XSLT,
 - saving XML to database using ORM,
 - unit tests.
 
 ## Technologies used
-- C#
-- .NET Core 3.1
-- XSLT
-- xUnit
-- EntityFramework Core
-- Microsoft SQL Server
+- C#,
+- .NET Core 3.1,
+- XSLT,
+- xUnit,
+- EntityFramework Core,
+- Microsoft SQL Server.
 
 ## Table of contents
 1. Model Classes

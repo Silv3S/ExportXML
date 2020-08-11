@@ -1,3 +1,4 @@
+
 # Export of report to XML
 This .NET Core 3.1 console application provides:
 - deserialization of ProductionResults.xml,
@@ -15,13 +16,13 @@ This .NET Core 3.1 console application provides:
 - Microsoft SQL Server
 
 ## Table of contents
-1. Classes
-	1.1 Models
-	1.2 Other
-2. Serialization
-3. Conversion to CSV using XSLT
-4. Example
-5. Unit tests
+1. Model Classes
+2. Other Classes
+3. Serialization
+4. Conversion to CSV using XSLT
+5. Conversion example
+6. Tested functionalities
+7. Entity Framework Core
 
 ## Model Classes
 ![ProductionReport and subclasses](Images/class.png)
@@ -48,7 +49,7 @@ Serialization and deserialization is done by *System.Xml.Serialization* library.
 
 ## Conversion to CSV using XSLT
 List of cars is converted to CSV format with header in first line. Features of each car are ommited.
-## Example
+## Conversion example
 
 ![Application flowchart](Images/diag.png)
 

@@ -5,7 +5,7 @@ This .NET Core 3.1 console application provides:
 - converting XML file to CSV via XSLT,
 - saving XML to database using ORM,
 - unit tests.
-![idea](Images/idea.png)
+![idea](Images/za.png)
 
 ## Technologies used
 - C#,
